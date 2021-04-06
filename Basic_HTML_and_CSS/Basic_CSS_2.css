@@ -1,0 +1,12 @@
+p {
+	color: red;
+	background-color: black;
+	font-size: medium;
+	text-align: center;
+}
+
+/* I have a few tips on how to continue this CSS file */
+
+h1 {
+	text-shadow: 3px 3px blue;
+}

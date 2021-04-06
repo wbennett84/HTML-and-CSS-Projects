@@ -1,0 +1,25 @@
+ol {
+	list-style-type: lower-greek;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+
+ol:hover {
+	background-color: aliceblue;
+	color: black;
+}
+
+
+ul:hover {
+	background-color: aliceblue;
+	color: black;
+}
+
+
+
+p {
+  text-shadow: 2px 2px #5771ff;
+}

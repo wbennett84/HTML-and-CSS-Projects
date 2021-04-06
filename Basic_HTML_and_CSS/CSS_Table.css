@@ -1,0 +1,19 @@
+
+table {
+	border: 3px black;
+}
+
+td:hover {
+	background-color: aliceblue;
+	color: black;
+}
+
+tr, th {
+	background-color: white;
+	color: blue;
+}
+
+tr, td {
+	background-color: cadetblue;
+	color: white;
+}
