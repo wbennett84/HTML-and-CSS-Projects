@@ -14,4 +14,4 @@ This page is an example home page for a Classic Cars rental agency. It's styled 
 
 Lions for Pets:
 
-This page is an example home page for a Lion training agency that is styled using Bootstrap 4. It contains many Bootstrap components including but not limited to a navbar, jumbotron, form, cards and dropdowns.
+This page is an example home page for a Lion training agency that is styled using Bootstrap 4. It contains many Bootstrap components including but not limited to a navbar, jumbotron, form, cards and dropdowns. 
