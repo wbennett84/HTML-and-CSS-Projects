@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+<title>Expansive Vacations</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/one_page_website.css">
+<script src="js/one_page_website.js"></script>
+</head>
+
+<body>
+<main>
+<!-- NAV BAR -->
+	<div>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#gallery">Travel Destinations</a></li>
+			<li><a href="#form">Book a Trip!</a></li>
+		</ul>
+	</nav>
+</div>
+<!-- END NAV BAR -->
+
+
+
+<!-- MAIN PICS AND VIDEOS -->
+<div class="container">
+<div class="image">
+	<img src="./images/main.jpg" alt="Beautiful Photo intended, something went wrong">
+</div>
+</div>
+<br>
+<br>
+
+<!-- THIS IS THE UPDATED LIGHTBOX CODE -->
+<h2 id="second" align="center">Below are some of our destinations!</h2>
+<br>
+<br>
+<div class="row">
+	<div class="column">
+	  <img src="images/amazon.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+	</div>
+	<div class="column">
+	  <img src="images/iceland.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+	</div>
+	<div class="column">
+	  <img src="images/sahara.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+	</div>
+	<div class="column">
+	  <img src="images/tahiti.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+	</div>
+  </div>
+  
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+  
+	  <div class="mySlides">
+		<div class="numbertext">1 / 4</div>
+		<img src="images/amazon.jpg" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">2 / 4</div>
+		<img src="images/iceland.jpg" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">3 / 4</div>
+		<img src="images/sahara.jpg" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">4 / 4</div>
+		<img src="images/tahiti.jpg" style="width:100%">
+	  </div>
+  
+	  <!-- Next/previous controls -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+	  <!-- Caption text -->
+	  <div class="caption-container">
+		<p id="caption"></p>
+	  </div>
+  
+	  <!-- Thumbnail image controls -->
+	  <div class="column">
+		<img class="demo" src="images/amazon.jpg" onclick="currentSlide(1)" alt="Nature">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="images/iceland.jpg" onclick="currentSlide(2)" alt="Snow">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="images/sahara.jpg" onclick="currentSlide(3)" alt="Mountains">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="images/tahiti.jpg" onclick="currentSlide(4)" alt="Lights">
+	  </div>
+	</div>
+  </div>
+
+
+<!-- this is all the original code
+<div id="gallery">
+<p id="first" align="center">
+Exciting Vacation Spots!
+</p>
+</div>
+
+<br>
+<br>
+
+
+<div>
+<h2 id="second" align="center">Below are some of our destinations!</h2>
+<br>
+<br>
+<table align="center">
+	<tr>
+		<td><img src="./images/amazon.jpg"></td>
+		<td><img src="./images/sahara.jpg"></td>
+	</tr>
+	<tr>
+		<td><img src="./images/tahiti.jpg"></td>
+		<td><img src="./images/iceland.jpg"></td>
+	</tr>
+</table>
+</div>
+
+<br>
+<br>
+<br>
+
+-->
+
+
+<br>
+<br><br>
+<div align="center">
+<table class="table">
+	<tr>
+		<th>Costa Rica</th>
+		<th>Switzerland</th>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><iframe width="560" height="315" src="https://www.youtube.com/embed/DGbA_HRtcu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+		<td><iframe width="560" height="315" src="https://www.youtube.com/embed/W4Ou96H-cPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+	</tr>
+</table>
+
+<br>
+<br>
+<br>
+
+<!-- END MAIN PICS AND VIDEOS -->
+
+<!-- FORM -->
+<div id="form">
+	<p>If you're interested in an exciting vacation fill out this form!<p>
+	<form action="" method="post">
+		<input class="rsvp" type="text" value="First Name">
+		<input class="rsvp" type="text" value="Last Name">
+		<input class="rsvp" type="text" value="Email Address">
+		<input class="rsvp" type="text" value="Phone Number">
+	</form>
+</div>
+<!-- END FORM -->
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- FOOTER -->
+
+<p id="footer" align="center">
+All rights reserved. Copyright copyright... etc etc.
+</p>
+
+<!-- END FOOTER -->
+
+</main>
+
+</body>
+</html>
